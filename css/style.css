@@ -1,6 +1,6 @@
 
 body{
-	background-color: rgb(200,200,200);
+	background-color: rgb(225,225,225);
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -21,8 +21,8 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
-    background-color: rgb(200,200,200);
+    width: auto;
+    background-color: rgb(225,225,225);
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -30,7 +30,7 @@ ul {
 
 li a {
     display: block;
-    color: #000;
+    color: black;
     padding: 8px 16px;
     text-decoration: none;
 }
