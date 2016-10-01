@@ -1,7 +1,5 @@
 
 body{
-	border: 10px solid blue;
-	border-radius: 20px;
 	background-color: rgb(200,200,200);
 }
 
@@ -9,3 +7,45 @@ h1,h2,h3,h4,h5,h6{
 	color: blue;
 	text-align: center;
 }
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: blue;
+    clear: left;
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: rgb(200,200,200);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: rgb(150,150,150);
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+/*
+Classes
+*/
